@@ -1,0 +1,93 @@
+/* Write your desired CSS here */
+
+body {
+  font-family: sans-serif;
+  background-color: rgb(0, 0, 0);
+  color: black;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+}
+
+.hidden {
+  display: none;
+}
+
+.container {
+  background-color: white;
+  padding: 20px;
+  border-radius: 10px;
+  max-width: 600px;
+  box-shadow: 0px 5px 20px rgba(0, 0, 0, 0.2);
+  box-sizing: border-box;
+  backdrop-filter: blur(10px);
+}
+
+button {
+  background-color: #6c5ce7;
+  color: #ffffff;
+  padding: 12px 25px;
+  border: none;
+  cursor: pointer;
+  border-radius: 50px;
+  margin-top: 10px;
+  transition: all 0.3s ease;
+  margin-top: 10px;
+  box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.2);
+}
+
+button:hover {
+  background-color: green;
+  transform: translateY(-3px);
+}
+
+button:active {
+  transform: translateY(1px);
+}
+
+#question {
+  font-size: 1.5rem;
+  margin-bottom: 15px;
+}
+
+#timer {
+  margin-top: 20px;
+  background-color: #e17055;
+  color: #ffffff;
+  padding: 10px;
+  border-radius: 50px;
+  font-weight: bold;
+  box-shadow: 0px 5px 15 px rgba(0, 0, 0, 0.2);
+}
+
+#scoreDisplay {
+  font-size: 1.2rem;
+  margin-top: 15px;
+  text-align: center;
+}
+
+#score {
+  font-weight: bold;
+  color: green;
+}
+
+#game-over {
+  color: red;
+}
+
+#final {
+  background-color: greenyellow;
+}
+
+#finalScore {
+  background-color: greenyellow;
+}
+
+@media screen and (min-width: 600px) {
+  botton {
+    width: auto;
+  }
+}
